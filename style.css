@@ -6,7 +6,7 @@
 
 body {
   font-family: sans-serif, tahoma;
-  background-color: #141414;
+  background-color: #ffd166;
   color: white;
   display: flex;
   height: 100dvh;
@@ -15,7 +15,7 @@ body {
 }
 
 .piano {
-  background: #262626;
+  background: #4a1c0d;
   padding: 20px;
   border-radius: 30px;
 }
@@ -42,14 +42,14 @@ body {
 .keys .key.white {
   width: 70px;
   height: 240px;
-  background-color: #fff;
+  background-color: #fff4de;
   color: gray;
 }
 
 .keys .key.black {
   width: 50px;
   height: 160px;
-  background-color: #111;
+  background-color: #0e0e0e;
   color: gray;
   margin-inline: -28px;
   margin-top: -5px;
@@ -57,9 +57,10 @@ body {
 }
 
 .screen-error {
+  color: #4a1c0d;
   font-size: 1.5rem;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 600;
   margin-inline: 20px;
   text-align: center;
   display: none;
