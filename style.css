@@ -9,7 +9,7 @@ body {
   background-color: #141414;
   color: white;
   display: flex;
-  height: 100vh;
+  height: 100dvh;
   justify-content: center;
   align-items: center;
 }
@@ -54,4 +54,54 @@ body {
   margin-inline: -28px;
   margin-top: -5px;
   z-index: 2;
+}
+
+.screen-error {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-inline: 20px;
+  text-align: center;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .piano {
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .keys {
+    gap: 4px;
+  }
+
+  .keys .key {
+    border-radius: 2px 2px 5px 5px;
+    padding-bottom: 8px;
+  }
+
+  .keys .key.white {
+    width: 50px;
+    height: 140px;
+  }
+
+  .keys .key.black {
+    width: 34px;
+    height: 90px;
+    margin-inline: -19px;
+    margin-top: -2px;
+  }
+}
+
+@media (max-width: 576px) {
+  .piano {
+    display: none;
+  }
+  .screen-error {
+    display: block;
+  }
 }
