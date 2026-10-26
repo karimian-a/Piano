@@ -36,7 +36,9 @@ body {
   align-items: end;
   justify-content: center;
   padding-bottom: 12px;
+  transition: all 0.1s;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .keys .key.white {
@@ -64,6 +66,10 @@ body {
   margin-inline: 20px;
   text-align: center;
   display: none;
+}
+
+.active{
+  transform: scale(0.98);
 }
 
 @media (max-width: 992px) {
